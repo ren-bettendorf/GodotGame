@@ -1,0 +1,57 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/tavern.png" type="Texture" id=1]
+[ext_resource path="res://IntroButton.gd" type="Script" id=2]
+[ext_resource path="res://Introduction.gd" type="Script" id=3]
+
+[node name="Introduction" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="BackgroundImage" type="TextureRect" parent="CanvasLayer"]
+margin_left = 2.0
+margin_right = 1368.0
+margin_bottom = 768.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextBackground" type="ColorRect" parent="CanvasLayer"]
+anchor_right = 0.109
+anchor_bottom = 0.42
+margin_left = 2.0
+margin_top = 549.0
+margin_right = 916.384
+margin_bottom = 350.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="IntroText" type="RichTextLabel" parent="CanvasLayer2"]
+margin_left = 1.0
+margin_top = 561.0
+margin_right = 1028.0
+margin_bottom = 600.0
+text = "Welcome Adventurer! Your task is to brave the rat swarm below and bring me back the cask of ale before the patrons go crazy and burn down this tavern! 
+Don't worry I'm sure you have about 10 turns before things go crazy... Anything I'm missing.. Well then good luck! Oh yeah take one of the weapons over there!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="CanvasLayer2"]
+margin_left = 928.811
+margin_top = 526.191
+margin_right = 1016.81
+margin_bottom = 546.191
+text = "Continue"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="CanvasLayer2/Button" to="CanvasLayer2/Button" method="_on_Button_pressed"]
