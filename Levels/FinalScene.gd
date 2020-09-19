@@ -1,11 +1,5 @@
 extends Node2D
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var image = Image.new()
@@ -25,9 +19,4 @@ func _ready():
 	var texture = ImageTexture.new()
 	texture.create_from_image(image, 7)
 	$CanvasLayer/FinalSceneImage.texture = texture
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+	pass

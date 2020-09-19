@@ -4,3 +4,9 @@ C:\Users\renal\Documents\ChooseOwnAdv\.mono\temp\obj\Debug\ChooseOwnAdv.csprojAs
 C:\Users\renal\Documents\ChooseOwnAdv\.mono\temp\obj\Debug\ChooseOwnAdv.csproj.CoreCompileInputs.cache
 C:\Users\renal\Documents\ChooseOwnAdv\.mono\temp\obj\Debug\ChooseOwnAdv.dll
 C:\Users\renal\Documents\ChooseOwnAdv\.mono\temp\obj\Debug\ChooseOwnAdv.pdb
+C:\Users\renal\Documents\GodotGame\.mono\temp\bin\Debug\ChooseOwnAdv.dll
+C:\Users\renal\Documents\GodotGame\.mono\temp\bin\Debug\ChooseOwnAdv.pdb
+C:\Users\renal\Documents\GodotGame\.mono\temp\obj\Debug\ChooseOwnAdv.csprojAssemblyReference.cache
+C:\Users\renal\Documents\GodotGame\.mono\temp\obj\Debug\ChooseOwnAdv.csproj.CoreCompileInputs.cache
+C:\Users\renal\Documents\GodotGame\.mono\temp\obj\Debug\ChooseOwnAdv.dll
+C:\Users\renal\Documents\GodotGame\.mono\temp\obj\Debug\ChooseOwnAdv.pdb

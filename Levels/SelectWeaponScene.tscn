@@ -57,10 +57,10 @@ script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-[connection signal="pressed" from="CanvasLayer2/SwordButton" to="CanvasLayer2/VerifyWeaponButton" method="_on_SwordButton_pressed"]
 [connection signal="pressed" from="CanvasLayer2/SwordButton" to="CanvasLayer2/SwordButton" method="_on_SwordButton_pressed"]
-[connection signal="pressed" from="CanvasLayer2/AxeButton" to="CanvasLayer2/VerifyWeaponButton" method="_on_AxeButton_pressed"]
+[connection signal="pressed" from="CanvasLayer2/SwordButton" to="CanvasLayer2/VerifyWeaponButton" method="_on_SwordButton_pressed"]
 [connection signal="pressed" from="CanvasLayer2/AxeButton" to="CanvasLayer2/AxeButton" method="_on_AxeButton_pressed"]
-[connection signal="pressed" from="CanvasLayer2/StaffButton" to="CanvasLayer2/VerifyWeaponButton" method="_on_StaffButton_pressed"]
+[connection signal="pressed" from="CanvasLayer2/AxeButton" to="CanvasLayer2/VerifyWeaponButton" method="_on_AxeButton_pressed"]
 [connection signal="pressed" from="CanvasLayer2/StaffButton" to="CanvasLayer2/StaffButton" method="_on_StaffButton_pressed"]
+[connection signal="pressed" from="CanvasLayer2/StaffButton" to="CanvasLayer2/VerifyWeaponButton" method="_on_StaffButton_pressed"]
 [connection signal="pressed" from="CanvasLayer2/VerifyWeaponButton" to="CanvasLayer2/VerifyWeaponButton" method="_on_VerifyWeaponButton_pressed"]

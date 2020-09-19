@@ -35,6 +35,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureProgress" type="TextureProgress" parent="CanvasLayer" index="4"]
+anchor_right = 0.142
+anchor_bottom = 0.098
+margin_right = -105.408
+margin_bottom = -18.8
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="TextLabel" parent="CanvasLayer2" index="0"]
 text = "LOOK OUT BEHIND YOU!!! The rat has started attacking you! What would you like to do?"
 
