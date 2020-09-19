@@ -16,6 +16,7 @@ func _ready():
 
 func _on_AttackButton_pressed():
 	GlobalVariables._attack()
+	get_tree().get_root().find_node("SwordEffect", true, false).play()
 	if GlobalVariables.current_hp < 1 or GlobalVariables.enemy_hp < 1:
 		emit_signal("somedeath")
 		var err = get_tree().change_scene(GlobalVariables.final_scene)
